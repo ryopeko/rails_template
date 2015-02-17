@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.1'
+gem 'rails', '~> 4.2'
 gem 'sqlite3'
-gem 'sass-rails', '~> 4.0'
-gem 'uglifier', '>= 2.5'
-gem 'coffee-rails', '~> 4.1'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 
 gem 'jquery-rails'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4',          group: :doc
+gem 'jbuilder'
+gem 'sdoc', group: :doc
 
 gem 'settingslogic'
 gem 'bcrypt'
@@ -24,11 +24,11 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails',        '~> 3.1'
-  gem 'rspec-core',         '~> 3.1'
-  gem 'rspec-expectations', '~> 3.1'
-  gem 'rspec-mocks',        '~> 3.1'
-  gem 'rspec-support',      '~> 3.1'
+  gem 'rspec-rails'
+  gem 'rspec-core'
+  gem 'rspec-expectations'
+  gem 'rspec-mocks'
+  gem 'rspec-support'
   gem 'factory_girl_rails'
   gem 'pry-rails'
   gem 'tapp-awesome_print'
